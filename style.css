@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    background-image: url('https://media1.tenor.com/m/hf9tz_vODroAAAAC/bubu-playing.gif');
+    background-size: 80vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+.background1 {
+    background-image: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2k0bjF0ZWoybXJqMTJhdWM4bG9la3R0dWZ4amQ5MTZjN2cxcm4xdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/z95UnKH3Rgdm1V9Y4f/giphy.gif');
+    background-size: 80vh;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+    background-color: skyblue; /* Background color with opacity */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ques {
+    text-align: center;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.yes {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.no {
+    background-color: #f44336;
+    color: white;
+}
